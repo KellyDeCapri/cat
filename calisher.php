@@ -10,36 +10,37 @@
 			body{background-image:url(schools.jpg);}
 	</style>
 	<title></title>
+	<img src="mamsnot.png " width="170px" height="150px">
 	<h1>RAVENHOOD HIGH School</h1>
 </head>
 <body>
 	<form style="text-align: center; color: #b12d10; ">
 	Maths
-	<input type="number" name="Maths"  >
+	<input type="number" name="Maths">
 	<br>
 	<br>
 	English
-	<input type="number" name="English" >
+	<input type="number" name="English">
 	<br>
 	<br>
 	Kiswahili
-	<input type="number" name="Kiswahili" >
+	<input type="number" name="Kiswahili">
 	<br>
 	<br>
 	Chemistry
-	<input type="number" name="Chemistry" >
+	<input type="number" name="Chemistry">
 	<br>
 	<br>
 	Biology
-	<input type="number" name="Biology"  >
+	<input type="number" name="Biology">
 	<br>
 	<br>
 	Geography
-	<input type="number" name="Geography"  >
+	<input type="number" name="Geography">
 	<br>
 	<br>
 	Computer
-	<input type="number" name="Computer"  >
+	<input type="number" name="Computer">
 	<br>
 	<br>
 	<button>Calculate</button>
@@ -56,11 +57,7 @@
 
 	$total=$M+$N+$O+$P+$Q+$R+$S;
 	$Average=$total/7;
-	print "$Average";
-
-
-
-
+	print"$Average";
 	?>
 
 </body>

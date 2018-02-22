@@ -7,24 +7,27 @@
 		<style type="text/css">
 			h3{text-decoration-color: #3339ff; font-size:  40px;}
 		</style>
-	<title>Wednesday Cat</title>
+	<title>Login</title>
 </head>
 <body style="background-image: url(ravenwood-high-school-brentwood-tn.jpg); ">
 
 	<div class="nav nav-header" style="text-align: center;">
-		<h3>Western Burwa School</h3>
+		<img src="mamsnot.png " width="170px" height="150px">
+		<h3>RAVENHOOD HIGH School</h3>
 	</div>
-<div class="container">	
-<form method="Post" style="text-align: center; color:  #FF5733 ;" action="forms.php" >
-	Firstname:
+<div class="container-fluid">
+<div class ="loginBox">	
+	<h4>Log in Here</h4>
+<form method="Post" style="text-align: center; color:  #FF5733 ;" action="forms.php">
+	First name:
 	<input type="text" name="firstname" placeholder=" Enter firstname">
 	<br>
 	<br>
-	Middlename:
+	Middle name:
 	<input type="text" name="" placeholder="Middlename" required="">
 	<br>
 	<br>
-	Lastname:
+	Last name:
 	<input type="text" name="" placeholder="Lastname" required="">
 	<br>
 	<br>
@@ -80,6 +83,7 @@
 	<br>
 <button href="#">Submit</button>
 </form>
+</div>
 </div>
 </body>
 </html>
